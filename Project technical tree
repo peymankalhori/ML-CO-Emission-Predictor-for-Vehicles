@@ -1,0 +1,8 @@
+🌳 CO₂ Emission Predictor for Vehicles
+├─ Problem Type: Supervised regression (continuous target: CO₂ g/km)
+├─ Data Engineering: Loaded co2.csv; removed irrelevant features (engine, cylandr); 6-feature input
+├─ Exploratory Analysis: Correlation heatmap; target distribution visualization
+├─ Model Architecture: Simple Linear Regression (no regularization, no non-linearity)
+├─ Training Protocol: 80/20 train/test split; scikit-learn’s LinearRegression
+├─ Validation: Visualized predictions vs. actual; manual inference on custom input (e.g., 6.4 → 185.3 g/km)
+└─ Limitations: No feature scaling; no advanced metrics (MAE, R²); over-simplified 1D plot
